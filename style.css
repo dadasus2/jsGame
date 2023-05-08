@@ -1,0 +1,49 @@
+* {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(56, 56, 56);
+}
+
+.game {
+    width: 400;
+    height: 600;
+    background-color: white;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    transition: .2s;
+}
+
+.character {
+    width: 20px;
+    height: 20px;
+    background-color: crimson;
+    position: absolute;
+    left: 190;
+    bottom: 100;
+}
+
+.borderLeft {
+    box-shadow: -10px 0px 10px white;
+    transition: .2s;
+}
+
+.borderRight {
+    box-shadow: 10px 0px 10px white;
+    transition: .2s;
+}
+
+.borderUp {
+    box-shadow: 0px 10px 10px white;
+    transition: .2s;
+}
+
+.borderDown {
+    box-shadow: 0px -10px 10px white;
+    transition: .2s;
+}
